@@ -5,7 +5,7 @@ function App() {
         <div className="container mt-4">
             <div className="row">
                 <div className="col-md-12">
-                    <h1 className="text-center mb-4">Sistema de Estacionamento</h1>
+                    <h1 className="text-center mb-4">Park System</h1>
                 </div>
             </div>
 
@@ -13,28 +13,28 @@ function App() {
                 <div className="col-md-4">
                     <div className="card">
                         <div className="card-header bg-primary text-white">
-                            <h4>Cadastro de Veículo</h4>
+                            <h4>Register vehicle</h4>
                         </div>
                         <div className="card-body">
                             <form id="vehicleForm">
                                 <div className="form-group">
-                                    <label htmlFor="placa">Placa do Veículo*</label>
-                                    <input type="text" className="form-control" id="placa" name="placa" required />
+                                    <label htmlFor="plate">Vehicle plate*</label>
+                                    <input type="text" className="form-control" id="plate" name="plate" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="modelo">Modelo do Veículo*</label>
-                                    <input type="text" className="form-control" id="modelo" name="modelo" required />
+                                    <label htmlFor="model">Vehicle model*</label>
+                                    <input type="text" className="form-control" id="model" name="model" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="ano">Ano*</label>
-                                    <input type="number" className="form-control" id="ano" name="ano" required />
+                                    <label htmlFor="year">Year*</label>
+                                    <input type="number" className="form-control" id="year" name="year" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="nomeCondutor">Nome do Condutor*</label>
-                                    <input type="text" className="form-control" id="nomeCondutor" name="nomeCondutor" required />
+                                    <label htmlFor="driverName">Driver name*</label>
+                                    <input type="text" className="form-control" id="driverName" name="driverName" required />
                                 </div>
-                                <button type="submit" className="btn btn-primary" id="saveBtn">Cadastrar</button>
-                                <button type="button" className="btn btn-secondary" id="cancelBtn" style={{ display: 'none' }}>Cancelar</button>
+                                <button type="submit" className="btn btn-primary" id="saveBtn">Register</button>
+                                <button type="button" className="btn btn-secondary" id="cancelBtn" style={{ display: 'none' }}>Cancel</button>
                             </form>
                         </div>
                     </div>
@@ -42,18 +42,18 @@ function App() {
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-header bg-info text-white">
-                            <h4>Veículos Cadastrados</h4>
+                            <h4>Registered vehicles</h4>
                         </div>
                         <div className="card-body">
                             <div className="table-responsive">
                                 <table className="table table-striped">
                                     <thead>
                                         <tr>
-                                            <th>Placa</th>
-                                            <th>Modelo</th>
-                                            <th>Ano</th>
-                                            <th>Condutor</th>
-                                            <th>Ações</th>
+                                            <th>Plate</th>
+                                            <th>Model</th>
+                                            <th>Year</th>
+                                            <th>Driver</th>
+                                            <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody id="vehicleList">
