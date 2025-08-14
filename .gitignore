@@ -1,0 +1,32 @@
+# Arquivos Java compilados
+*.class
+
+# Arquivos de package
+*.jar
+*.war
+*.ear
+
+# Arquivos do Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+.factorypath
+.tern-project
+.springBeans
+
+# Diretórios de build
+bin/
+build/
+target/
+out/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios de dependências
+node_modules/ 
