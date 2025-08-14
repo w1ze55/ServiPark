@@ -39,7 +39,31 @@ function App() {
                         </div>
                     </div>
                 </div>
-                
+                <div className="col-md-8">
+                    <div className="card">
+                        <div className="card-header bg-info text-white">
+                            <h4>Veículos Cadastrados</h4>
+                        </div>
+                        <div className="card-body">
+                            <div className="table-responsive">
+                                <table className="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Placa</th>
+                                            <th>Modelo</th>
+                                            <th>Ano</th>
+                                            <th>Condutor</th>
+                                            <th>Ações</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="vehicleList">
+                                        {/* Vehicle data will be loaded here */}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
