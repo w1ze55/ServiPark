@@ -49,3 +49,40 @@ body {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
+
+.form-group label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+}
