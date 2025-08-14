@@ -45,7 +45,7 @@ O projeto está organizado da seguinte forma:
 ## Tecnologias Utilizadas
 
 - **Backend**: Java Servlets (javax.servlet), Filtros Servlet
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript, TypeScript
 - **Frameworks**: Bootstrap 4 (interface), jQuery (manipulação DOM)
 
 ## Requisitos
