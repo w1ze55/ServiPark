@@ -2,17 +2,15 @@ import './App.css'
 
 function App() {
     return (
-        <div className="container mt-4">
-            <div className="row">
-                <div className="col-md-12">
-                    <h1 className="text-center mb-4">Park System</h1>
+        <div className="general-content">
+                <div className="main-title">
+                    <h1 className="title">ServiPark</h1>
+                    <h2 className='subtitle'>System for vehicle parking</h2>
                 </div>
-            </div>
 
-            <div className="row">
-                <div className="col-md-4">
-                    <div className="card">
-                        <div className="card-header bg-primary text-white">
+            <div className="subgeneral-content">
+                <div className="register-content">
+                        <div className="card-title">
                             <h4>Register vehicle</h4>
                         </div>
                         <div className="card-body">
@@ -37,16 +35,15 @@ function App() {
                                 <button type="button" className="btn btn-secondary" id="cancelBtn" style={{ display: 'none' }}>Cancel</button>
                             </form>
                         </div>
-                    </div>
                 </div>
-                <div className="col-md-8">
+                <div className="col-8">
                     <div className="card">
-                        <div className="card-header bg-info text-white">
+                        <div className="card-header">
                             <h4>Registered vehicles</h4>
                         </div>
                         <div className="card-body">
                             <div className="table-responsive">
-                                <table className="table table-striped">
+                                <table className="table">
                                     <thead>
                                         <tr>
                                             <th>Plate</th>
